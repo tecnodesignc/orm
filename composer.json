@@ -72,5 +72,6 @@
                 "EntityManager": "Tecnodesignc\\ORM\\Facades\\EntityManager"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
