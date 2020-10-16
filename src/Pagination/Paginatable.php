@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Pagination;
+namespace Tecnodesignc\ORM\Pagination;
 
 /**
  * @deprecated Backwards compatibility trait. You should switch to use one of the specific Paginator traits:

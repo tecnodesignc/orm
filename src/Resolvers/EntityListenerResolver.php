@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Resolvers;
+namespace Tecnodesignc\ORM\Resolvers;
 
 use Doctrine\ORM\Mapping\EntityListenerResolver as ResolverContract;
 use Illuminate\Contracts\Container\Container;

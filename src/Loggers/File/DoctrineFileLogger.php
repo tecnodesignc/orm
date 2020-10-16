@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers\File;
+namespace Tecnodesignc\ORM\Loggers\File;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Logging\SQLLogger;
-use LaravelDoctrine\ORM\Loggers\Formatters\FormatQueryKeywords;
-use LaravelDoctrine\ORM\Loggers\Formatters\ReplaceQueryParams;
+use Tecnodesignc\ORM\Loggers\Formatters\FormatQueryKeywords;
+use Tecnodesignc\ORM\Loggers\Formatters\ReplaceQueryParams;
 use Psr\Log\LoggerInterface as Log;
 
 class DoctrineFileLogger implements SQLLogger

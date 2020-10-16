@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration;
+namespace Tecnodesignc\ORM\Configuration;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Str;
-use LaravelDoctrine\ORM\Exceptions\DriverNotFound;
+use Tecnodesignc\ORM\Exceptions\DriverNotFound;
 
 abstract class Manager
 {

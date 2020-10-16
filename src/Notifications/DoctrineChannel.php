@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Notifications;
+namespace Tecnodesignc\ORM\Notifications;
 
 use Doctrine\Persistence\ManagerRegistry;
 use Illuminate\Notifications\Notification as LaravelNotification;
-use LaravelDoctrine\ORM\Exceptions\NoEntityManagerFound;
+use Tecnodesignc\ORM\Exceptions\NoEntityManagerFound;
 use RuntimeException;
 
 class DoctrineChannel

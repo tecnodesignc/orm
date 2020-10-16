@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console;
+namespace Tecnodesignc\ORM\Console;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Tools\Console\MetadataFilter;

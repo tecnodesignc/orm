@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace Tecnodesignc\ORM\Configuration\MetaData;
 
 use Doctrine\ORM\Mapping\Builder\ClassMetadataBuilder;
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Arr;
-use LaravelDoctrine\Fluent\Builders\Builder;
-use LaravelDoctrine\Fluent\Extensions\ExtensibleClassMetadataFactory;
-use LaravelDoctrine\Fluent\FluentDriver;
-use LaravelDoctrine\ORM\Configuration\LaravelNamingStrategy;
+use Tecnodesignc\Fluent\Builders\Builder;
+use Tecnodesignc\Fluent\Extensions\ExtensibleClassMetadataFactory;
+use Tecnodesignc\Fluent\FluentDriver;
+use Tecnodesignc\ORM\Configuration\LaravelNamingStrategy;
 
 class Fluent extends MetaData
 {

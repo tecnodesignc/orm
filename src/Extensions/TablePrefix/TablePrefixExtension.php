@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Extensions\TablePrefix;
+namespace Tecnodesignc\ORM\Extensions\TablePrefix;
 
 use Doctrine\Common\Annotations\Reader;
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\EntityManagerInterface;
 use Illuminate\Support\Arr;
-use LaravelDoctrine\ORM\Extensions\Extension;
+use Tecnodesignc\ORM\Extensions\Extension;
 
 class TablePrefixExtension implements Extension
 {

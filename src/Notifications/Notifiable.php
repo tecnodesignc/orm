@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Notifications;
+namespace Tecnodesignc\ORM\Notifications;
 
 use Illuminate\Notifications\RoutesNotifications;
 

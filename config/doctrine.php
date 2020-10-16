@@ -88,16 +88,16 @@ return [
     |
     */
     'extensions'                 => [
-        //LaravelDoctrine\ORM\Extensions\TablePrefix\TablePrefixExtension::class,
-        //LaravelDoctrine\Extensions\Timestamps\TimestampableExtension::class,
-        //LaravelDoctrine\Extensions\SoftDeletes\SoftDeleteableExtension::class,
-        //LaravelDoctrine\Extensions\Sluggable\SluggableExtension::class,
-        //LaravelDoctrine\Extensions\Sortable\SortableExtension::class,
-        //LaravelDoctrine\Extensions\Tree\TreeExtension::class,
-        //LaravelDoctrine\Extensions\Loggable\LoggableExtension::class,
-        //LaravelDoctrine\Extensions\Blameable\BlameableExtension::class,
-        //LaravelDoctrine\Extensions\IpTraceable\IpTraceableExtension::class,
-        //LaravelDoctrine\Extensions\Translatable\TranslatableExtension::class
+        //Tecnodesignc\ORM\Extensions\TablePrefix\TablePrefixExtension::class,
+        //Tecnodesignc\Extensions\Timestamps\TimestampableExtension::class,
+        //Tecnodesignc\Extensions\SoftDeletes\SoftDeleteableExtension::class,
+        //Tecnodesignc\Extensions\Sluggable\SluggableExtension::class,
+        //Tecnodesignc\Extensions\Sortable\SortableExtension::class,
+        //Tecnodesignc\Extensions\Tree\TreeExtension::class,
+        //Tecnodesignc\Extensions\Loggable\LoggableExtension::class,
+        //Tecnodesignc\Extensions\Blameable\BlameableExtension::class,
+        //Tecnodesignc\Extensions\IpTraceable\IpTraceableExtension::class,
+        //Tecnodesignc\Extensions\Translatable\TranslatableExtension::class
     ],
     /*
     |--------------------------------------------------------------------------
@@ -142,9 +142,9 @@ return [
     | Setting it to false, will disable logging
     |
     | Available:
-    | - LaravelDoctrine\ORM\Loggers\LaravelDebugbarLogger
-    | - LaravelDoctrine\ORM\Loggers\ClockworkLogger
-    | - LaravelDoctrine\ORM\Loggers\FileLogger
+    | - Tecnodesignc\ORM\Loggers\LaravelDebugbarLogger
+    | - Tecnodesignc\ORM\Loggers\ClockworkLogger
+    | - Tecnodesignc\ORM\Loggers\FileLogger
     |--------------------------------------------------------------------------
     */
     'logger'                     => env('DOCTRINE_LOGGER', false),

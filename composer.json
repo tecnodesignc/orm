@@ -42,7 +42,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelDoctrine\\ORM\\": "src/"
+            "Tecnodesignc\\ORM\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -64,12 +64,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelDoctrine\\ORM\\DoctrineServiceProvider"
+                "Tecnodesignc\\ORM\\DoctrineServiceProvider"
             ],
             "aliases": {
-                "Registry": "LaravelDoctrine\\ORM\\Facades\\Registry",
-                "Doctrine": "LaravelDoctrine\\ORM\\Facades\\Doctrine",
-                "EntityManager": "LaravelDoctrine\\ORM\\Facades\\EntityManager"
+                "Registry": "Tecnodesignc\\ORM\\Facades\\Registry",
+                "Doctrine": "Tecnodesignc\\ORM\\Facades\\Doctrine",
+                "EntityManager": "Tecnodesignc\\ORM\\Facades\\EntityManager"
             }
         }
     }

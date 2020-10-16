@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Testing\Concerns;
+namespace Tecnodesignc\ORM\Testing\Concerns;
 
 use Doctrine\ORM\EntityManager;
 use PHPUnit_Framework_Assert as Assert;

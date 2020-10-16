@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Connections;
+namespace Tecnodesignc\ORM\Configuration\Connections;
 
 use Doctrine\DBAL\Connections\MasterSlaveConnection as MasterSlaveDoctrineWrapper;
 use Illuminate\Contracts\Config\Repository;

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace Tecnodesignc\ORM\Configuration\MetaData;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Support\Arr;
-use LaravelDoctrine\ORM\Configuration\MetaData\Config\ConfigDriver;
+use Tecnodesignc\ORM\Configuration\MetaData\Config\ConfigDriver;
 
 class Config extends MetaData
 {

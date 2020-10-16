@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Validation;
+namespace Tecnodesignc\ORM\Validation;
 
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace Tecnodesignc\ORM\Configuration\Cache;
 
 use Doctrine\Common\Cache\PhpFileCache;
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use Tecnodesignc\ORM\Configuration\Driver;
 use function storage_path;
 
 class PhpFileCacheProvider implements Driver

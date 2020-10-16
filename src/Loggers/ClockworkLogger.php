@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers;
+namespace Tecnodesignc\ORM\Loggers;
 
 use Clockwork\Clockwork;
 use Doctrine\DBAL\Logging\DebugStack;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\Clockwork\DoctrineDataSource;
+use Tecnodesignc\ORM\Loggers\Clockwork\DoctrineDataSource;
 
 class ClockworkLogger implements Logger
 {

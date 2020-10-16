@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace Tecnodesignc\ORM\Configuration\MetaData;
 
 use Doctrine\Persistence\Mapping\Driver\StaticPHPDriver;
 use Illuminate\Support\Arr;

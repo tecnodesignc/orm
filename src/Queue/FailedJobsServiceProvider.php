@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Queue;
+namespace Tecnodesignc\ORM\Queue;
 
 use Illuminate\Queue\Events\JobProcessing;
 use Illuminate\Support\ServiceProvider;

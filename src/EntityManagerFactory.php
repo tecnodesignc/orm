@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM;
+namespace Tecnodesignc\ORM;
 
 use Doctrine\Common\Cache\Cache;
 use Doctrine\Common\EventManager;
@@ -14,14 +14,14 @@ use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
-use LaravelDoctrine\ORM\Configuration\Cache\CacheManager;
-use LaravelDoctrine\ORM\Configuration\Connections\ConnectionManager;
-use LaravelDoctrine\ORM\Configuration\Connections\MasterSlaveConnection;
-use LaravelDoctrine\ORM\Configuration\LaravelNamingStrategy;
-use LaravelDoctrine\ORM\Configuration\MetaData\MetaData;
-use LaravelDoctrine\ORM\Configuration\MetaData\MetaDataManager;
-use LaravelDoctrine\ORM\Extensions\MappingDriverChain;
-use LaravelDoctrine\ORM\Resolvers\EntityListenerResolver;
+use Tecnodesignc\ORM\Configuration\Cache\CacheManager;
+use Tecnodesignc\ORM\Configuration\Connections\ConnectionManager;
+use Tecnodesignc\ORM\Configuration\Connections\MasterSlaveConnection;
+use Tecnodesignc\ORM\Configuration\LaravelNamingStrategy;
+use Tecnodesignc\ORM\Configuration\MetaData\MetaData;
+use Tecnodesignc\ORM\Configuration\MetaData\MetaDataManager;
+use Tecnodesignc\ORM\Extensions\MappingDriverChain;
+use Tecnodesignc\ORM\Resolvers\EntityListenerResolver;
 use ReflectionException;
 
 class EntityManagerFactory
@@ -398,7 +398,7 @@ class EntityManagerFactory
     {
         $chain = new MappingDriverChain(
             $configuration->getMetadataDriverImpl(),
-            'LaravelDoctrine'
+            'Tecnodesignc'
         );
 
         foreach (Arr::get($settings, 'namespaces', []) as $alias => $namespace) {

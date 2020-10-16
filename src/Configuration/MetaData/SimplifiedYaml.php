@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace Tecnodesignc\ORM\Configuration\MetaData;
 
 use Doctrine\ORM\Mapping\Driver\SimplifiedYamlDriver;
 use Illuminate\Support\Arr;

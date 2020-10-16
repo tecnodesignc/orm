@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Serializers;
+namespace Tecnodesignc\ORM\Serializers;
 
 trait Jsonable
 {

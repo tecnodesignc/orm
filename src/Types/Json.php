@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Types;
+namespace Tecnodesignc\ORM\Types;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\JsonArrayType;

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Auth\Passwords;
+namespace Tecnodesignc\ORM\Auth\Passwords;
 
-use LaravelDoctrine\ORM\AbstractTable;
+use Tecnodesignc\ORM\AbstractTable;
 
 class PasswordResetTable extends AbstractTable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Utilities;
+namespace Tecnodesignc\ORM\Utilities;
 
 /**
  * @deprecated Use the null coalescing operator

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Pagination;
+namespace Tecnodesignc\ORM\Pagination;
 
 use Doctrine\ORM\AbstractQuery;
 use Doctrine\ORM\Query;

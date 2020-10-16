@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console;
+namespace Tecnodesignc\ORM\Console;
 
 use Illuminate\Console\Command as IlluminateCommand;
 

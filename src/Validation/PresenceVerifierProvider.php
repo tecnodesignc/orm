@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Validation;
+namespace Tecnodesignc\ORM\Validation;
 
 use Illuminate\Validation\Factory;
 use Illuminate\Validation\ValidationServiceProvider;

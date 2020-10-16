@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM;
+namespace Tecnodesignc\ORM;
 
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Connection;

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace Tecnodesignc\ORM\Configuration\Cache;
 
 use Doctrine\Common\Cache\ArrayCache;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use Tecnodesignc\ORM\Configuration\Driver;
 
 class ArrayCacheProvider implements Driver
 {

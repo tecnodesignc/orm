@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Auth;
+namespace Tecnodesignc\ORM\Auth;
 
 use Doctrine\ORM\Mapping as ORM;
 

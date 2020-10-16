@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console;
+namespace Tecnodesignc\ORM\Console;
 
 use Doctrine\Persistence\ManagerRegistry;
 use Exception;

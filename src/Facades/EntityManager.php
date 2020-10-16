@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Facades;
+namespace Tecnodesignc\ORM\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

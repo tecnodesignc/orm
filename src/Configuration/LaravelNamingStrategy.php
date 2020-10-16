@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration;
+namespace Tecnodesignc\ORM\Configuration;
 
 use Doctrine\ORM\Mapping\NamingStrategy;
 use Illuminate\Support\Str;

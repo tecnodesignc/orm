@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace Tecnodesignc\ORM\Configuration\Cache;
 
 class ApcCacheProvider extends IlluminateCacheProvider
 {

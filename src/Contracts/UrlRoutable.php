@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Contracts;
+namespace Tecnodesignc\ORM\Contracts;
 
 interface UrlRoutable
 {

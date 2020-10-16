@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Extensions;
+namespace Tecnodesignc\ORM\Extensions;
 
 use Doctrine\Common\EventManager;
 use Doctrine\ORM\Configuration;

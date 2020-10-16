@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration;
+namespace Tecnodesignc\ORM\Configuration;
 
 interface Driver
 {

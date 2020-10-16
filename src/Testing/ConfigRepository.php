@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Testing;
+namespace Tecnodesignc\ORM\Testing;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Support\Arr;

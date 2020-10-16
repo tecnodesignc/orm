@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Testing;
+namespace Tecnodesignc\ORM\Testing;
 
 use ReflectionClass;
 

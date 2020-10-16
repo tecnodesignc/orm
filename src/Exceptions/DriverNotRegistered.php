@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Exceptions;
+namespace Tecnodesignc\ORM\Exceptions;
 
 use RuntimeException;
 

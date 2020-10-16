@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console\Exporters;
+namespace Tecnodesignc\ORM\Console\Exporters;
 
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use Doctrine\ORM\Tools\Export\Driver\AbstractExporter;
@@ -87,11 +87,11 @@ class FluentExporter extends AbstractExporter
     private function getExtend(ClassMetadataInfo $metadata)
     {
         if ($metadata->isMappedSuperclass) {
-            return 'LaravelDoctrine\Fluent\MappedSuperClassMapping';
+            return 'Tecnodesignc\Fluent\MappedSuperClassMapping';
         } elseif ($metadata->isEmbeddedClass) {
-            return 'LaravelDoctrine\Fluent\EmbeddableMapping';
+            return 'Tecnodesignc\Fluent\EmbeddableMapping';
         } else {
-            return 'LaravelDoctrine\Fluent\EntityMapping';
+            return 'Tecnodesignc\Fluent\EntityMapping';
         }
     }
 
@@ -126,7 +126,7 @@ class FluentExporter extends AbstractExporter
         $extend = $this->getExtend($metadata);
 
         $imports = [
-            'LaravelDoctrine\Fluent\Fluent',
+            'Tecnodesignc\Fluent\Fluent',
             'Doctrine\ORM\Mapping\ClassMetadataInfo',
             $extend,
             $metadata->name

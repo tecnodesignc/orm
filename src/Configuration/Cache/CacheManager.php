@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace Tecnodesignc\ORM\Configuration\Cache;
 
-use LaravelDoctrine\ORM\Configuration\Manager;
+use Tecnodesignc\ORM\Configuration\Manager;
 
 class CacheManager extends Manager
 {

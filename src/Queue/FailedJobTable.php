@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Queue;
+namespace Tecnodesignc\ORM\Queue;
 
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Schema\Index;
-use LaravelDoctrine\ORM\AbstractTable;
+use Tecnodesignc\ORM\AbstractTable;
 
 class FailedJobTable extends AbstractTable
 {

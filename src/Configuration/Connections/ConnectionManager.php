@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Connections;
+namespace Tecnodesignc\ORM\Configuration\Connections;
 
-use LaravelDoctrine\ORM\Configuration\Manager;
+use Tecnodesignc\ORM\Configuration\Manager;
 
 class ConnectionManager extends Manager
 {

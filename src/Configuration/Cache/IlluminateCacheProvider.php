@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace Tecnodesignc\ORM\Configuration\Cache;
 
 use const E_USER_DEPRECATED;
 use Illuminate\Contracts\Cache\Factory;
 use InvalidArgumentException;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use Tecnodesignc\ORM\Configuration\Driver;
 
 class IlluminateCacheProvider implements Driver
 {

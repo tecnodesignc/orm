@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Connections;
+namespace Tecnodesignc\ORM\Configuration\Connections;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

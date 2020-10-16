@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM;
+namespace Tecnodesignc\ORM;
 
 use Doctrine\Common\Proxy\Autoloader;
 use Doctrine\ORM\EntityManager;
@@ -15,32 +15,32 @@ use Illuminate\Notifications\ChannelManager;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use LaravelDoctrine\ORM\Auth\DoctrineUserProvider;
-use LaravelDoctrine\ORM\Configuration\Cache\CacheManager;
-use LaravelDoctrine\ORM\Configuration\Connections\ConnectionManager;
-use LaravelDoctrine\ORM\Configuration\CustomTypeManager;
-use LaravelDoctrine\ORM\Configuration\MetaData\MetaDataManager;
-use LaravelDoctrine\ORM\Console\ClearMetadataCacheCommand;
-use LaravelDoctrine\ORM\Console\ClearQueryCacheCommand;
-use LaravelDoctrine\ORM\Console\ClearResultCacheCommand;
-use LaravelDoctrine\ORM\Console\ConvertConfigCommand;
-use LaravelDoctrine\ORM\Console\ConvertMappingCommand;
-use LaravelDoctrine\ORM\Console\DumpDatabaseCommand;
-use LaravelDoctrine\ORM\Console\EnsureProductionSettingsCommand;
-use LaravelDoctrine\ORM\Console\GenerateEntitiesCommand;
-use LaravelDoctrine\ORM\Console\GenerateProxiesCommand;
-use LaravelDoctrine\ORM\Console\GenerateRepositoriesCommand;
-use LaravelDoctrine\ORM\Console\InfoCommand;
-use LaravelDoctrine\ORM\Console\MappingImportCommand;
-use LaravelDoctrine\ORM\Console\SchemaCreateCommand;
-use LaravelDoctrine\ORM\Console\SchemaDropCommand;
-use LaravelDoctrine\ORM\Console\SchemaUpdateCommand;
-use LaravelDoctrine\ORM\Console\SchemaValidateCommand;
-use LaravelDoctrine\ORM\Exceptions\ExtensionNotFound;
-use LaravelDoctrine\ORM\Extensions\ExtensionManager;
-use LaravelDoctrine\ORM\Notifications\DoctrineChannel;
-use LaravelDoctrine\ORM\Testing\Factory as EntityFactory;
-use LaravelDoctrine\ORM\Validation\PresenceVerifierProvider;
+use Tecnodesignc\ORM\Auth\DoctrineUserProvider;
+use Tecnodesignc\ORM\Configuration\Cache\CacheManager;
+use Tecnodesignc\ORM\Configuration\Connections\ConnectionManager;
+use Tecnodesignc\ORM\Configuration\CustomTypeManager;
+use Tecnodesignc\ORM\Configuration\MetaData\MetaDataManager;
+use Tecnodesignc\ORM\Console\ClearMetadataCacheCommand;
+use Tecnodesignc\ORM\Console\ClearQueryCacheCommand;
+use Tecnodesignc\ORM\Console\ClearResultCacheCommand;
+use Tecnodesignc\ORM\Console\ConvertConfigCommand;
+use Tecnodesignc\ORM\Console\ConvertMappingCommand;
+use Tecnodesignc\ORM\Console\DumpDatabaseCommand;
+use Tecnodesignc\ORM\Console\EnsureProductionSettingsCommand;
+use Tecnodesignc\ORM\Console\GenerateEntitiesCommand;
+use Tecnodesignc\ORM\Console\GenerateProxiesCommand;
+use Tecnodesignc\ORM\Console\GenerateRepositoriesCommand;
+use Tecnodesignc\ORM\Console\InfoCommand;
+use Tecnodesignc\ORM\Console\MappingImportCommand;
+use Tecnodesignc\ORM\Console\SchemaCreateCommand;
+use Tecnodesignc\ORM\Console\SchemaDropCommand;
+use Tecnodesignc\ORM\Console\SchemaUpdateCommand;
+use Tecnodesignc\ORM\Console\SchemaValidateCommand;
+use Tecnodesignc\ORM\Exceptions\ExtensionNotFound;
+use Tecnodesignc\ORM\Extensions\ExtensionManager;
+use Tecnodesignc\ORM\Notifications\DoctrineChannel;
+use Tecnodesignc\ORM\Testing\Factory as EntityFactory;
+use Tecnodesignc\ORM\Validation\PresenceVerifierProvider;
 
 class DoctrineServiceProvider extends ServiceProvider
 {

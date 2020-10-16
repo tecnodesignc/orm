@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Auth\Passwords;
+namespace Tecnodesignc\ORM\Auth\Passwords;
 
 use Illuminate\Support\ServiceProvider;
 

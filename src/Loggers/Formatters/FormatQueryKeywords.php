@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers\Formatters;
+namespace Tecnodesignc\ORM\Loggers\Formatters;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
